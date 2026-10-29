@@ -1,4 +1,4 @@
-import {solveLevel} from '../solve-api.js';
+import {solveLevel} from '../solve-api.js?v=full-solver-1';
 window.catSolver = Object.freeze({solve:solveLevel});
 const level = document.getElementById('level'), output = document.getElementById('output');
 const button = document.getElementById('solve'), sample = document.getElementById('sample');

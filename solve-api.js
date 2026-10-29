@@ -12,7 +12,7 @@ export function solveLevel(level, {timeoutSeconds = 60} = {}) {
     let worker, timer, done = false;
     function finish(result) { if(done) return; done = true; clearTimeout(timer); worker?.terminate(); resolve(result); }
     try {
-      worker = new Worker(new URL('./full-solver-worker.js', import.meta.url), {type:'module'});
+      worker = new Worker(new URL('./full-solver-worker.js?v=full-solver-1', import.meta.url), {type:'module'});
       timer = setTimeout(() => finish({status:'Error',message:'Solver startup timed out.',moves:[]}),90000);
       worker.onerror = e => finish({status:'Error',message:e.message || 'Failed to start solver.',moves:[]});
       worker.onmessage = ({data}) => {

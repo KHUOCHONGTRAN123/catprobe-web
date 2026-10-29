@@ -749,7 +749,7 @@
     },
     {
       "path": "full-solver-worker.js",
-      "sha256": "15331da6b54f679ee60bbcb72e0d32a784ac1b2187cf5555a2f962d7175abf76"
+      "sha256": "9f1f2b39aeda47fbc52150c1f413a0a17d047153bb5fa5788e575737bbc63bbe"
     },
     {
       "path": "index.html",
@@ -777,7 +777,7 @@
     },
     {
       "path": "solve/index.html",
-      "sha256": "a771ee743be8da6751cc7ac743a344b37522f997de70cc66071cf2ba0db168b5"
+      "sha256": "f1a964d7c0f7443796bfb3b394ca9e250e4864796cfb4aa9d0f1f13bfbd45a5e"
     },
     {
       "path": "solve/README.md",
@@ -785,11 +785,11 @@
     },
     {
       "path": "solve/solve-page.js",
-      "sha256": "8f5f64466a02bc10d1e0906fd9f73835826697593ff1d41ea48725a20942a073"
+      "sha256": "82a599e9639502363b19cb3b384f3d7f8afb9ef8f5623d0f5b41d8ec3a5a8a36"
     },
     {
       "path": "solve-api.js",
-      "sha256": "640497268110a018de712d61c683a6e527fdf3076c0d968e63b89ef822ebffce"
+      "sha256": "cf1ce83a4f867450f58bc149cfbb7f507b86a6a2fb6cb38cd621dafb6887b740"
     },
     {
       "path": "solver-worker.js",

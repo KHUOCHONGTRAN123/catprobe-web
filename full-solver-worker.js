@@ -1,4 +1,4 @@
-import { dotnet } from './_framework/dotnet.js';
+import { dotnet } from './_framework/dotnet.js?v=full-solver-1';
 try {
   const runtime = await dotnet.withDiagnosticTracing(false).create();
   const exports = await runtime.getAssemblyExports(runtime.getConfig().mainAssemblyName);
