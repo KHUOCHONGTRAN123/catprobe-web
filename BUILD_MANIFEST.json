@@ -785,7 +785,7 @@
     },
     {
       "path": "solve/solve-page.js",
-      "sha256": "803dd18e0c4d23c1fad8c7043eba20fe1934491abd101a619bd924516c224483"
+      "sha256": "8f5f64466a02bc10d1e0906fd9f73835826697593ff1d41ea48725a20942a073"
     },
     {
       "path": "solve-api.js",
