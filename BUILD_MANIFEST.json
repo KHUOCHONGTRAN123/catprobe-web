@@ -1,0 +1,767 @@
+{
+  "version": "0.5.0",
+  "runtime": "browser-wasm",
+  "defaultSeconds": 60,
+  "files": [
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "_framework/CatProbe.Wasm.4i5y8pi6pa.wasm",
+      "sha256": "a403ebaca792d28eabe12cdcd987512ed2e5ea6db5ae27c9eeffd2390c15d813"
+    },
+    {
+      "path": "_framework/dotnet.js",
+      "sha256": "22428e920dec2633b9848cfd71feeb426911b987403233f50cff007ac3e80c4c"
+    },
+    {
+      "path": "_framework/dotnet.native.puryxhmhq9.js",
+      "sha256": "8106c71f30a75b1f220ce0bae4429baa5edb125b4991f6a8ee59a401b2116a3c"
+    },
+    {
+      "path": "_framework/dotnet.native.u31nt9bth6.wasm",
+      "sha256": "a6a91cf980f04534a09ae58994088d25aca337461016ef7803ce0d1b3b80d764"
+    },
+    {
+      "path": "_framework/dotnet.runtime.web2r9gqbh.js",
+      "sha256": "48e507110dc58430226c1491daef74356669a018cfb964661f40400135258495"
+    },
+    {
+      "path": "_framework/icudt_CJK.tjcz0u77k5.dat",
+      "sha256": "4992ed42745cd09930a8769bd155153fb4f7b813d2798cf1cc39e9c4fa549c79"
+    },
+    {
+      "path": "_framework/icudt_EFIGS.tptq2av103.dat",
+      "sha256": "f1f22d7ad618f24434c30ea8c704cb893de85e50701caba66de3f6a51178c937"
+    },
+    {
+      "path": "_framework/icudt_no_CJK.lfu7j35m59.dat",
+      "sha256": "2fbb15ecd1183f7eff42bd853c278fa39709a918135d1c061eec05e50fb435fb"
+    },
+    {
+      "path": "_framework/IndependentSolver.6r4b1zrfu1.wasm",
+      "sha256": "d269c444490dea527b43496476577068334a63be8e4d56535c51d17f7838d4e3"
+    },
+    {
+      "path": "_framework/Microsoft.CSharp.6q6v6mynmi.wasm",
+      "sha256": "cef1dfdbb6a1571948d801576b1185782ea0b2693e294fe36b26525ff69376e7"
+    },
+    {
+      "path": "_framework/Microsoft.VisualBasic.Core.7ahatwz856.wasm",
+      "sha256": "019d4e06765989eb914e20c63b58b31361e3f9d22bd0424a019722e88a7bed90"
+    },
+    {
+      "path": "_framework/Microsoft.VisualBasic.sphnc8qe37.wasm",
+      "sha256": "7085e78bac9a6e6660d824fd3df53060987841702291e66194186228d6fdd1ee"
+    },
+    {
+      "path": "_framework/Microsoft.Win32.Primitives.x8i8s5qlfi.wasm",
+      "sha256": "9f415d2a8b9e6ad1dae67bfc3daae0efd762762b955788bd75796d8295bc7508"
+    },
+    {
+      "path": "_framework/Microsoft.Win32.Registry.vw7gs5u6x3.wasm",
+      "sha256": "0fbcf4810604daa630cc2a87af169e53538d4d013877d9ebc56262f52ca3a4fb"
+    },
+    {
+      "path": "_framework/mscorlib.j53nj9v82n.wasm",
+      "sha256": "49e935c3acdfb29fa675f4d8fb46bd0482557f03163ea3bcf53566ca2c1de2c5"
+    },
+    {
+      "path": "_framework/netstandard.6qjyqs9cni.wasm",
+      "sha256": "a28d118fce45cee4fb1762fbe13fbdd6459637640630722b1e23ffcc8d4d308d"
+    },
+    {
+      "path": "_framework/Newtonsoft.Json.qkbufwhni2.wasm",
+      "sha256": "1a55cc58abc3b38e4cda9002a11dd8e1087c99cace646963aa6bc963ee89679b"
+    },
+    {
+      "path": "_framework/System.9immaprbgt.wasm",
+      "sha256": "8f263ea9e7cbfd98b8bda56ed03ed8ed933e2e939db4ebae6b3db3695b5e00ac"
+    },
+    {
+      "path": "_framework/System.AppContext.tcwsqw4zp2.wasm",
+      "sha256": "cd6c035064f099d00f020ff0cb19e27169c421b1c84613f96b4cdbc103ef0b11"
+    },
+    {
+      "path": "_framework/System.Buffers.wv1fr9u78z.wasm",
+      "sha256": "b4e9654a183a0531824b100c1221496670730697abef832cf65ce198456e2495"
+    },
+    {
+      "path": "_framework/System.Collections.Concurrent.mjcda8szaq.wasm",
+      "sha256": "3e9576584a9e6b289b73239b47c129aa0d7f3297d14b998438150edf3df6561d"
+    },
+    {
+      "path": "_framework/System.Collections.ggdo1btk42.wasm",
+      "sha256": "20d7ed5cbfde5f882f6c2e96f6354b9be0e2936428fb3ac54fae369238da289f"
+    },
+    {
+      "path": "_framework/System.Collections.Immutable.uynhbcg8xd.wasm",
+      "sha256": "6ad101c33e6d273ee8cb42bfc5fa69cbf9c48f316c19c08471127ece17fc4fd2"
+    },
+    {
+      "path": "_framework/System.Collections.NonGeneric.lxlhsh57kt.wasm",
+      "sha256": "491926b0d177b8de7c3ea608a2349fbade951cca8cebce5a1a95f558dd97a3ac"
+    },
+    {
+      "path": "_framework/System.Collections.Specialized.m4ce5na42h.wasm",
+      "sha256": "1a4a5b55096e0978b5d271ca40f8049bc04edd46ca7f25d163e2fc77107bac1f"
+    },
+    {
+      "path": "_framework/System.ComponentModel.Annotations.6kamo06ruz.wasm",
+      "sha256": "f6166c1bd6d540f4084e3560fbe1c62a0172d5d4da4b8761fc17d4cccba3cd73"
+    },
+    {
+      "path": "_framework/System.ComponentModel.DataAnnotations.xbmwog2f1v.wasm",
+      "sha256": "f38e26b274f7ef2caab2eb6894923731c1011b4346512526126207c17f1c592f"
+    },
+    {
+      "path": "_framework/System.ComponentModel.EventBasedAsync.eqv8o4kw6a.wasm",
+      "sha256": "a63a9b319beae34334c301b1b6c333bfa47515b86fb59ae0e7a3c5b99092248f"
+    },
+    {
+      "path": "_framework/System.ComponentModel.o0bt2abfmk.wasm",
+      "sha256": "f8081c7f93839863a542b66316703c694bd2e06accb8efbd49323d8228b75adf"
+    },
+    {
+      "path": "_framework/System.ComponentModel.Primitives.eotivnapz7.wasm",
+      "sha256": "427e89c381e3e12be1afef7b49c95b1e1f2297ace9694365d98030f96f73420f"
+    },
+    {
+      "path": "_framework/System.ComponentModel.TypeConverter.x4d9maevo7.wasm",
+      "sha256": "c188b574f5babcc7597ea039479ffc6ac3ce4e90d362a53b9c25622db321bcb6"
+    },
+    {
+      "path": "_framework/System.Configuration.b12keys70e.wasm",
+      "sha256": "4f5d60a5e13d6d612269466ed4fff2b7d05f436bd43728c81d404a64b55d74c2"
+    },
+    {
+      "path": "_framework/System.Console.byghioepvx.wasm",
+      "sha256": "13425376cd48915b460357f89899c1adc6da4b8436077d262f9d9c70c88c7fcb"
+    },
+    {
+      "path": "_framework/System.Core.crs2w9a4bs.wasm",
+      "sha256": "1882707ed41136291617546f463527d6b712d8e19eb061f5b5f440ae42e29f3b"
+    },
+    {
+      "path": "_framework/System.Data.7l0iizrfot.wasm",
+      "sha256": "85fe983949fd4916bd0f547a6b841f06e0bc1fe27f54dc02e3a4db3fa75e12b3"
+    },
+    {
+      "path": "_framework/System.Data.Common.bgo75n328l.wasm",
+      "sha256": "75f75f2abbb71da4e106ea716d851232b52f168c0b61c0a5527342b07de394c6"
+    },
+    {
+      "path": "_framework/System.Data.DataSetExtensions.x6usn7lchy.wasm",
+      "sha256": "2735735cea0e4e4bbd5d458e3b57a647d3f70ea3a37b4d4ae438626fd84d4464"
+    },
+    {
+      "path": "_framework/System.Diagnostics.Contracts.zb5ovgp6rz.wasm",
+      "sha256": "01006559980a5edfa35faf0d225662209b3b8251cabf5d8c469e7080c834c33a"
+    },
+    {
+      "path": "_framework/System.Diagnostics.Debug.pzraghcsxr.wasm",
+      "sha256": "cb9f68750b202151be359c363ec46c222d06ac6a4c63fa55d0ef0f1e0d6fe40e"
+    },
+    {
+      "path": "_framework/System.Diagnostics.DiagnosticSource.y8ylk8ocyk.wasm",
+      "sha256": "5e2be425965a4cd79f94f1d9e040bd18ee75a42c81017a4c405ae6efbed99ea3"
+    },
+    {
+      "path": "_framework/System.Diagnostics.FileVersionInfo.qf6phldvxs.wasm",
+      "sha256": "2a5e0cdfed5318c0be2bb6f84abeaf0714cc9d7d7d42549b0e4fdc8b71786ff7"
+    },
+    {
+      "path": "_framework/System.Diagnostics.Process.j6qkqs1xs6.wasm",
+      "sha256": "75a44397731cf5bbfc104cf3ccac9b967401fa31140ccb8fc3237590a2fb60e7"
+    },
+    {
+      "path": "_framework/System.Diagnostics.StackTrace.zzgq407zst.wasm",
+      "sha256": "8f8ce5c60e2aefc830114a37431e5195a081051fa43435b6b0e7e0ba1aed7e80"
+    },
+    {
+      "path": "_framework/System.Diagnostics.TextWriterTraceListener.k3ba8zyfyp.wasm",
+      "sha256": "50550bf9a944afd3beca12db92ffff657b666765f43ace6c292269e89a149e34"
+    },
+    {
+      "path": "_framework/System.Diagnostics.Tools.awyyza3767.wasm",
+      "sha256": "2a4067091ec6e45057f2d1a50a29d82784d23d870b314eae79371b95e66b6506"
+    },
+    {
+      "path": "_framework/System.Diagnostics.TraceSource.w5t42xm4f8.wasm",
+      "sha256": "a432f92d9490e0232c271556c5b1cbc5a3f843e32a9068eb05d331e9f259195d"
+    },
+    {
+      "path": "_framework/System.Diagnostics.Tracing.zw8dj8hqv5.wasm",
+      "sha256": "63116b444a9469fa0a679de674c506dc77db42e9a6d7bfef7744ef535bc7292a"
+    },
+    {
+      "path": "_framework/System.Drawing.Primitives.cfbgr8gzc9.wasm",
+      "sha256": "2887c750f21f0d1e98c24ce5eeb4d6a6a4122bbf40b9d73c1edb1bb8732d59f9"
+    },
+    {
+      "path": "_framework/System.Drawing.wemiyntni6.wasm",
+      "sha256": "f8ef5f34f731f0a07c8de81edd86a14eafbf8aeccdb8ef5460aa10a0ca3205fe"
+    },
+    {
+      "path": "_framework/System.Dynamic.Runtime.83wdfbg9dk.wasm",
+      "sha256": "4c61724be8c59037a7f73d5803d95dbe36e50e5a0c2d24742559081bddfd7b67"
+    },
+    {
+      "path": "_framework/System.Formats.Asn1.wu3h4anva6.wasm",
+      "sha256": "c849c3188d98ec6373aa668997156f5532ab84e9fd162bfbcda50f2c5d0010c3"
+    },
+    {
+      "path": "_framework/System.Formats.Tar.hgqfxjarhi.wasm",
+      "sha256": "4f7fcc3486a82801e8a213797c7d9d436173855c6881a03f4e253279cfde63a7"
+    },
+    {
+      "path": "_framework/System.Globalization.Calendars.ygja8e5f6z.wasm",
+      "sha256": "1291cc7ba9c6241c6ac85a982068dd8b71e3a76c255896040da956520172ae6b"
+    },
+    {
+      "path": "_framework/System.Globalization.Extensions.lymlf1y54s.wasm",
+      "sha256": "83251ab08cc8c397f10cdacd4a5fe5da6499c1110587d4d25a3a73f926609fe2"
+    },
+    {
+      "path": "_framework/System.Globalization.wn8krsslap.wasm",
+      "sha256": "24acb43fc6cbdd95e8fa034f89a1ff36457d38c636b587024562a41ecd8b676e"
+    },
+    {
+      "path": "_framework/System.IO.Compression.Brotli.01wsvlce97.wasm",
+      "sha256": "dc3be0c8fb081ac897bbb862e2a5cdcc9afc88c257a0fdd648264c7eed080bb7"
+    },
+    {
+      "path": "_framework/System.IO.Compression.FileSystem.fhhysos6ne.wasm",
+      "sha256": "03c90fe8fafa04a9460ad4c589e1e50afe4bb970024c080336cab715b6f9b8ff"
+    },
+    {
+      "path": "_framework/System.IO.Compression.xga7hhx237.wasm",
+      "sha256": "3faa9534bb0c4b2ddf6c290151c01da1134def88933497c1c3683ee475ddfa56"
+    },
+    {
+      "path": "_framework/System.IO.Compression.ZipFile.b550bh7d4o.wasm",
+      "sha256": "f166aa9fefe804cc8b6611cc7490e9affb8665b5eb7d70cdb71c141aac7d2d58"
+    },
+    {
+      "path": "_framework/System.IO.FileSystem.AccessControl.gaf5qnpqkp.wasm",
+      "sha256": "a80286d4df79215627fbb6017701652ba01790c486c965abd9994f49350d1b81"
+    },
+    {
+      "path": "_framework/System.IO.FileSystem.DriveInfo.sbt0tte66b.wasm",
+      "sha256": "78c5e6e9bb494344056a22b3522ff75e0c858157deb38f3671b5611270c9b45c"
+    },
+    {
+      "path": "_framework/System.IO.FileSystem.Primitives.rhlpjpj7v7.wasm",
+      "sha256": "0f20f05072fc98502bebd34a4f21b5258f8e28d581fc9306197e5ad6e38d3d25"
+    },
+    {
+      "path": "_framework/System.IO.FileSystem.qjunxa5xpz.wasm",
+      "sha256": "9a4c40bf48230c10cc373232e7e20382f993000c60e9332ab934fb7bae60d45f"
+    },
+    {
+      "path": "_framework/System.IO.FileSystem.Watcher.c0tiebun14.wasm",
+      "sha256": "a422ba8f35b942319cc73f591b60bb7dde14a4900dcc7322801dd2b7aa9ce33c"
+    },
+    {
+      "path": "_framework/System.IO.gc5ray86oq.wasm",
+      "sha256": "d0652b49ce4953507089f2e22ca02facbb671d3434df6e80c07de759219f0439"
+    },
+    {
+      "path": "_framework/System.IO.IsolatedStorage.st1kzda9co.wasm",
+      "sha256": "407dec91ccf4363615984eb6aaca4d40dddff8e421d9db52d4a9c67ce26bccfa"
+    },
+    {
+      "path": "_framework/System.IO.MemoryMappedFiles.dud9xjr6ji.wasm",
+      "sha256": "55cb45c55db34f2b1ce38224f4c3676957183462885b5a913412fc483529e877"
+    },
+    {
+      "path": "_framework/System.IO.Pipelines.7hyknmpn75.wasm",
+      "sha256": "8bca619efca25f15575f4eccfeb67d92aa7eb53d17521f0785463a484572ccdc"
+    },
+    {
+      "path": "_framework/System.IO.Pipes.AccessControl.hhnvgw5lgh.wasm",
+      "sha256": "5b5710a6801b686bd1ae28d84128364f2432115a0bcff979851c3d0ea89e6270"
+    },
+    {
+      "path": "_framework/System.IO.Pipes.hiwotp9hyv.wasm",
+      "sha256": "99cb1a1a626172ae1449ed63cb5f085bede5ad17e621be62e2d1b45177b1759f"
+    },
+    {
+      "path": "_framework/System.IO.UnmanagedMemoryStream.ww8ebi8a3j.wasm",
+      "sha256": "a0974973be152a526233dcfef8a2a0b28b4783fc5bb4e8ec6582ed6fbd59d7e9"
+    },
+    {
+      "path": "_framework/System.Linq.9ffwb85ft1.wasm",
+      "sha256": "ebceb762a1a3e037d1824f01cd6b8654c8637fa7108672e438a76681e93174be"
+    },
+    {
+      "path": "_framework/System.Linq.AsyncEnumerable.07kzmng77i.wasm",
+      "sha256": "fca245accaa01f5a1da455f0a1e3827a1dff1fe054b8845eb2c3fde9ea4c9e9d"
+    },
+    {
+      "path": "_framework/System.Linq.Expressions.hnnxjo0l2j.wasm",
+      "sha256": "fd88077c67c63543690cc0cbbd990b7549be7d026bd99e28c21f9a949b8d35d5"
+    },
+    {
+      "path": "_framework/System.Linq.Parallel.glk2arw06k.wasm",
+      "sha256": "c46af936423b5cb86c37da9503970c85084afb93c4823c0ee3c271679e15af37"
+    },
+    {
+      "path": "_framework/System.Linq.Queryable.9agv5eul41.wasm",
+      "sha256": "cf5e5d7aebf20041c2174f00f72737a73db4a47bdeb380a52e164f626007f003"
+    },
+    {
+      "path": "_framework/System.Memory.psbhtw4rwf.wasm",
+      "sha256": "f912c1a458eb55b2304d22a120d66bb5d403a4ea3296580c5e876035154129b4"
+    },
+    {
+      "path": "_framework/System.Net.Http.hprl4g0ei6.wasm",
+      "sha256": "85c341875ee5e0ed4070dd531d5790b067f1d9d78ea18b4214fc1c325ab7924f"
+    },
+    {
+      "path": "_framework/System.Net.Http.Json.u38okk8pdw.wasm",
+      "sha256": "0a635057c77b8bf376614c395e929f375136ecbb6256278eaef35a87090a0b7a"
+    },
+    {
+      "path": "_framework/System.Net.HttpListener.a7w2mz50g1.wasm",
+      "sha256": "86a18998fe3525632447b4c6d9ecf6133675dce94b1139fe3efce915715ce5d7"
+    },
+    {
+      "path": "_framework/System.Net.m966t71d0p.wasm",
+      "sha256": "c6915da0103cbaf1ec98335f63843ebe80e4aa1a1158bfce2fda1c376f347042"
+    },
+    {
+      "path": "_framework/System.Net.Mail.0oz2x1giz0.wasm",
+      "sha256": "f0f93030fcdb392dd6fd30baf66e391c29ad571004d6ebd0442d156165a1311a"
+    },
+    {
+      "path": "_framework/System.Net.NameResolution.ofawvy3ec7.wasm",
+      "sha256": "2c0cb8c02e69f2a0f014ebb4a6b48be8c912e60e0ed3c698e48d1632f22479d9"
+    },
+    {
+      "path": "_framework/System.Net.NetworkInformation.5gv80uqpl0.wasm",
+      "sha256": "356966ab0f2ac41d2a3ed95b03f1afac172d7114e0a98f9969fe9b55d7ee606e"
+    },
+    {
+      "path": "_framework/System.Net.Ping.1ac0k1f2o4.wasm",
+      "sha256": "29e681d2f5bda1173c84aaee212c94b024b0c0e43af181702ee312d51ea6ce76"
+    },
+    {
+      "path": "_framework/System.Net.Primitives.k1ozvs2jbp.wasm",
+      "sha256": "884cd6e49e22f95acb8f6a1f22a6a3ecf75e6c5bc36336fce347951250f4f0ae"
+    },
+    {
+      "path": "_framework/System.Net.Quic.irg6mf6a29.wasm",
+      "sha256": "5eece630bbd064ef2c293b75002c4dfe19e8ac792849cc7d9d4ab7756b1e4591"
+    },
+    {
+      "path": "_framework/System.Net.Requests.90fz04w7mu.wasm",
+      "sha256": "b9865709d8379c1768bb67d543e77d20d918064ad5b8c6ff6598d5172ba400a2"
+    },
+    {
+      "path": "_framework/System.Net.Security.jfw2oy4ger.wasm",
+      "sha256": "af30bd47f14583fb2659957ec9cc919d71184c93e47391a499540382b83d1fc5"
+    },
+    {
+      "path": "_framework/System.Net.ServerSentEvents.kyt6lsc4yl.wasm",
+      "sha256": "2cc22c537a8386990fdd56a525e8314fa9017e958329c0bf810e1afc6e6b513f"
+    },
+    {
+      "path": "_framework/System.Net.ServicePoint.ut6twkdfba.wasm",
+      "sha256": "d2477accdb7a5c0844ac82ff26f9d56f95a14262c719aecee2bf663826827636"
+    },
+    {
+      "path": "_framework/System.Net.Sockets.x8v2el0sv6.wasm",
+      "sha256": "4fb391c2dc1a0ef3f2be59254d7deadd18d696f92667c0361d84582b6ff428cb"
+    },
+    {
+      "path": "_framework/System.Net.WebClient.czcdllfidj.wasm",
+      "sha256": "0864d1dc0cfa259dd0075308a21457097d178a34d14b675feb2a2d94923e7504"
+    },
+    {
+      "path": "_framework/System.Net.WebHeaderCollection.bce2110s0r.wasm",
+      "sha256": "1bfa206266d6e6b90a29a0d7657cdf6152b0feeb769b175a026ff6b870d62ead"
+    },
+    {
+      "path": "_framework/System.Net.WebProxy.5be8kwoend.wasm",
+      "sha256": "710eb7b74fa9c65a2f330a047f57aa8d90acfc582fadce38aa4b14fad1e4a2e1"
+    },
+    {
+      "path": "_framework/System.Net.WebSockets.Client.przg52xxg4.wasm",
+      "sha256": "eb29970cdc314b5c82f83e1bad169f16f1980b15e8413200a99e1bee9bf14576"
+    },
+    {
+      "path": "_framework/System.Net.WebSockets.xlwui9bnh8.wasm",
+      "sha256": "6b79fe8f13d280c6b7712466a6903a906816ade62ec74fe3fa3fe8f925798e6a"
+    },
+    {
+      "path": "_framework/System.Numerics.ag24ir3prp.wasm",
+      "sha256": "960c003b2fe34ff8d8a5b2cc3ecca7a069baffaef73a9bcf548721380cf7a2c0"
+    },
+    {
+      "path": "_framework/System.Numerics.Vectors.z7brvfqdcr.wasm",
+      "sha256": "7193f973b6ed1f0e99ce27d2503fec7599e4eff0a55c161ac595957da82665e2"
+    },
+    {
+      "path": "_framework/System.ObjectModel.xh1vpnmjgs.wasm",
+      "sha256": "ab516a747ef279f4f3c6661d00f89c464536744dadceebcc02f2815ff25c0c3d"
+    },
+    {
+      "path": "_framework/System.Private.CoreLib.juov5x1i7w.wasm",
+      "sha256": "75972368b64856369feb19501cc8624032c872351da0d6f996683703f03d97de"
+    },
+    {
+      "path": "_framework/System.Private.DataContractSerialization.l9evwq6x3r.wasm",
+      "sha256": "f9c1de4a64c0581d775d1fd7fc35382ee1c12c7ec55af0cdffacab6a8f47a413"
+    },
+    {
+      "path": "_framework/System.Private.Uri.w7q0j7zx27.wasm",
+      "sha256": "449caac41bd15606e6b1b7d8278af3edb8802df0c2a09d94348aecb44ac2d2ed"
+    },
+    {
+      "path": "_framework/System.Private.Xml.Linq.1ei6wtrgkp.wasm",
+      "sha256": "67f9af1fdde9d6eab87dcd70d3743c94553bc43ae5269152400179c7f2bb754f"
+    },
+    {
+      "path": "_framework/System.Private.Xml.q1h1022344.wasm",
+      "sha256": "72cbbcc098c52667e1f5141ac46ef0742589626c98aec2131f31832f6d32178a"
+    },
+    {
+      "path": "_framework/System.Reflection.DispatchProxy.g2yz9xctp2.wasm",
+      "sha256": "c89b1d3947be0d83ae6c879ed09c4988cb318ddccb397cd9327df4cfbbfae901"
+    },
+    {
+      "path": "_framework/System.Reflection.Emit.1ir4e7atax.wasm",
+      "sha256": "398eb6be5fd8401e0ca4b016517e81c7cbd79b67f8da45cdb1e9b0553c9ccbb2"
+    },
+    {
+      "path": "_framework/System.Reflection.Emit.ILGeneration.kwkwfmyend.wasm",
+      "sha256": "2ca79bf847700ce2e08f98c8a80b7bff5533a945d92a837871c3465b4c0be7ad"
+    },
+    {
+      "path": "_framework/System.Reflection.Emit.Lightweight.2uboz65mda.wasm",
+      "sha256": "eafcabb35f41ef0f5d1aa4889c1f17fb5cc32a466344641738130f305fb08486"
+    },
+    {
+      "path": "_framework/System.Reflection.Extensions.ryls3wcjtu.wasm",
+      "sha256": "33419ec14e8f6e5508f0371a4fb3cabc5180172e3a70550931f29670cb358f52"
+    },
+    {
+      "path": "_framework/System.Reflection.Metadata.685kento59.wasm",
+      "sha256": "8a4e02e4e416201caf769dc126be1902f858ad50267337c983df7aa316f98918"
+    },
+    {
+      "path": "_framework/System.Reflection.Primitives.xfo3jok9qj.wasm",
+      "sha256": "838e4392981ea234cd436e948b68af1b41b84821a977dba5f98ed1dcc7ec8505"
+    },
+    {
+      "path": "_framework/System.Reflection.rlpuhk2fom.wasm",
+      "sha256": "e1c1ad59e4c1b278dbdda3b336387ab1c5758be17596372b83041f164c1f1b8d"
+    },
+    {
+      "path": "_framework/System.Reflection.TypeExtensions.do7opdhcum.wasm",
+      "sha256": "dd594d6a33fa7dff6f42ffd0613561eca3af5c9ca0a95283986767aca240e92b"
+    },
+    {
+      "path": "_framework/System.Resources.Reader.4jh2hk8ou1.wasm",
+      "sha256": "40c69a03ca7349e23451571f2760b71e90e7fe94c37e4fde1d756eda38385b5c"
+    },
+    {
+      "path": "_framework/System.Resources.ResourceManager.l74nv8dd2y.wasm",
+      "sha256": "1124b7aa8946daa773a3e8d335003f4cbcdbefc06c1147a03b7cac1765ff6384"
+    },
+    {
+      "path": "_framework/System.Resources.Writer.0w0j4onmez.wasm",
+      "sha256": "405f316a095be60022e56c6c8526b4d589db4fe1c8baee3c88e696f000856ffa"
+    },
+    {
+      "path": "_framework/System.Runtime.CompilerServices.Unsafe.psp9r1rjx3.wasm",
+      "sha256": "d9f9d7d68ab05ed662762b57597bf27de350f7dd477848690cd0806cdb14c7da"
+    },
+    {
+      "path": "_framework/System.Runtime.CompilerServices.VisualC.ddaiepa6v6.wasm",
+      "sha256": "ff08af555301c7e290a555e9bf2d83f4a83ed4a8b2c5c5e32bec8fdf39d08674"
+    },
+    {
+      "path": "_framework/System.Runtime.Extensions.7mo8aanhcl.wasm",
+      "sha256": "616fd21ccf615ce7c45a057f1190ddbb6588c36bfc055c1e589e6b058ff74d3c"
+    },
+    {
+      "path": "_framework/System.Runtime.Handles.302mjdnyau.wasm",
+      "sha256": "a3ea51dfa4ce776c319057b777c7d58fc3da6efd956465c22e0f953e1d4863f0"
+    },
+    {
+      "path": "_framework/System.Runtime.InteropServices.dgvqyfg0pe.wasm",
+      "sha256": "bd1f6c3d99d5f9e744934e38a4aadafc7f4abeb0b745e59e6bc30ce9e6234d80"
+    },
+    {
+      "path": "_framework/System.Runtime.InteropServices.JavaScript.1qlb6weis6.wasm",
+      "sha256": "471792163b2e93a0bb10234d6dfaa4a0b8e5b82f227e52f70c1d91ff62029fc2"
+    },
+    {
+      "path": "_framework/System.Runtime.InteropServices.RuntimeInformation.7hdhpo4imj.wasm",
+      "sha256": "85c8d4a67510b4f1fd9b8388dec65666ecbd2e79dc52f02dc0e60a66b8baceaf"
+    },
+    {
+      "path": "_framework/System.Runtime.Intrinsics.4opvn70127.wasm",
+      "sha256": "b4c60ae12f67cab705dce05ce1ad02f647145fa384d6a611bbf97f5ae7f3f442"
+    },
+    {
+      "path": "_framework/System.Runtime.Loader.g8rkjfh4qm.wasm",
+      "sha256": "209aaf06983a3d5da3af5322744240d8da6d9900431f83f13b09ee757cc5d1f0"
+    },
+    {
+      "path": "_framework/System.Runtime.Numerics.v1ulx56ak0.wasm",
+      "sha256": "9d9f703f1fb4a014fc20b651ef6806a7cf4bf83deeddb54324f4fba4842ff05f"
+    },
+    {
+      "path": "_framework/System.Runtime.Serialization.Formatters.rvz6whau2l.wasm",
+      "sha256": "271f06955e3b9a13223653e9df0a4943c89ecdab1f672e00152e92fabe1384d8"
+    },
+    {
+      "path": "_framework/System.Runtime.Serialization.Json.qudur1ne02.wasm",
+      "sha256": "a2300e676d694750330b91f6ef3fa7b7627898abaa486b731d76c731f69ee4ac"
+    },
+    {
+      "path": "_framework/System.Runtime.Serialization.Primitives.j92gsjj8kn.wasm",
+      "sha256": "89988c14e680d33be744a1575972b219449f317a0c96f4930cfcaefd96316bf8"
+    },
+    {
+      "path": "_framework/System.Runtime.Serialization.Xml.ukymcjvxx5.wasm",
+      "sha256": "8e40bc82a0c5b8da6d8247b3737b73dc15d40f3d0b38fda11dd3172d75380364"
+    },
+    {
+      "path": "_framework/System.Runtime.Serialization.z7e61m03nm.wasm",
+      "sha256": "81f90d9c331186d0bf795e5ded2eddccab3aa06cf403de682c3c743c69a26335"
+    },
+    {
+      "path": "_framework/System.Runtime.tendud3ylb.wasm",
+      "sha256": "3b6678c0c17d4c71ba685874b3963a0d1f5a3510a5b3318b1f44ac7a4b4183d5"
+    },
+    {
+      "path": "_framework/System.Security.4vhqo5un91.wasm",
+      "sha256": "f0c887886c858ba02ef3145dac9c110f999d4191732fb9e8377e4613b88ac9d9"
+    },
+    {
+      "path": "_framework/System.Security.AccessControl.cv3mvcgnqt.wasm",
+      "sha256": "e853ff126b9b3d67c1e07a3ac7408192650f2809a3225a067086151178ad5a1e"
+    },
+    {
+      "path": "_framework/System.Security.Claims.vv0su8gg3e.wasm",
+      "sha256": "7bf1b9b1641cfddd2f771112fbc963a3588903e98f5ca38d29997d575394d20b"
+    },
+    {
+      "path": "_framework/System.Security.Cryptography.Algorithms.u07jl1h8ni.wasm",
+      "sha256": "4e9353b97c6519f73fe7ea49622b537c308aec0802b743a70e3e3848c9f8412b"
+    },
+    {
+      "path": "_framework/System.Security.Cryptography.Cng.nx9df96u5j.wasm",
+      "sha256": "75790f4ae68bbbefd1ef64ea2b71cff20e0d3dd1c5a7f4f09683b25aa1c0cd79"
+    },
+    {
+      "path": "_framework/System.Security.Cryptography.Csp.iv0qssebou.wasm",
+      "sha256": "124df6e6a16054b18831f9e196dcc36d847e88defbb319d47bd60835b20ae04c"
+    },
+    {
+      "path": "_framework/System.Security.Cryptography.d6btj6o3of.wasm",
+      "sha256": "2b17cc4bafe7ef55e67185b60c85551067eeed374d3a9ec8a61b7ffdd2cb55b4"
+    },
+    {
+      "path": "_framework/System.Security.Cryptography.Encoding.yvcfg16da3.wasm",
+      "sha256": "02bdc61fc382b23bdd92c8211a811f6e57a711d8161092e36503b18bf7095bb0"
+    },
+    {
+      "path": "_framework/System.Security.Cryptography.OpenSsl.1t0tq6hwlx.wasm",
+      "sha256": "55ebafe728d67f6d210111165a3cc1c333b0c10f3da191414c6ae92e3a5249f6"
+    },
+    {
+      "path": "_framework/System.Security.Cryptography.Primitives.lvrn81knoi.wasm",
+      "sha256": "e1985da338dd563213d4ddb57120cb47183737d072723119cc50e805a7efc729"
+    },
+    {
+      "path": "_framework/System.Security.Cryptography.X509Certificates.sjrlqg0zgl.wasm",
+      "sha256": "b8d8ca069ddd2bdf39428c5afc47953101553bc4edcb81a94b61665d6df2a3fd"
+    },
+    {
+      "path": "_framework/System.Security.Principal.cb0msvc61t.wasm",
+      "sha256": "1863d640ef55dbf319ab4d323f29136e7421b5026d8675593b2b5ee6446976cf"
+    },
+    {
+      "path": "_framework/System.Security.Principal.Windows.rdh8dkjzrz.wasm",
+      "sha256": "fff6df24c3c4badc54a329dc83c1e10f7d7c70abeac4134c7838c52dff029c8c"
+    },
+    {
+      "path": "_framework/System.Security.SecureString.kx9zmavdgn.wasm",
+      "sha256": "088befb545edaefe395edca1a072457d22c94f9099790d3c26ba845a43e15345"
+    },
+    {
+      "path": "_framework/System.ServiceModel.Web.ol7pik4njh.wasm",
+      "sha256": "44ebe0244dc55cf3dad9f5f6a941235570fe8cbd6919b29e0e4f403afa7d86e3"
+    },
+    {
+      "path": "_framework/System.ServiceProcess.x9ceibitb3.wasm",
+      "sha256": "a5f3bfbe3abf818d2748f2891f0b2d76f82a1e1575af31576fe3bd36e56cd017"
+    },
+    {
+      "path": "_framework/System.Text.Encoding.CodePages.xr9jzwuhbs.wasm",
+      "sha256": "c3a4db3c7d191ac5c4da6a1a0f10975a4a479357fa79149a74f2da656039222b"
+    },
+    {
+      "path": "_framework/System.Text.Encoding.Extensions.p7ksnf6eqq.wasm",
+      "sha256": "554815cd91f5f9407903df8df12c8a294da40e531cee4b69f86555b5dba9338c"
+    },
+    {
+      "path": "_framework/System.Text.Encoding.gylgsn1uaa.wasm",
+      "sha256": "d84405946238055089ba525ddc5da1e93d04b6c1929402b85aeb4701a2c14add"
+    },
+    {
+      "path": "_framework/System.Text.Encodings.Web.43wbm7qo0m.wasm",
+      "sha256": "d096534b449d5914a798991224b2cfc8c044eacb0a2dc129042d2a93d3317163"
+    },
+    {
+      "path": "_framework/System.Text.Json.3fm0130zj1.wasm",
+      "sha256": "8141ec02bc8849ccde9f81c8adf41962f29796fa8702bae8565a78ecbc0ab08d"
+    },
+    {
+      "path": "_framework/System.Text.RegularExpressions.ljb2w7634m.wasm",
+      "sha256": "f162e1ca036974375944a1123bdbd3251b2356dd91d2c9e3ee1a4afa7c502dc2"
+    },
+    {
+      "path": "_framework/System.Threading.91g5sfq1sa.wasm",
+      "sha256": "930715581f21c345c7af0e06f0cae6e0aa89e2f49acb3eefafe817df4902810d"
+    },
+    {
+      "path": "_framework/System.Threading.AccessControl.joce0p84gc.wasm",
+      "sha256": "4d444aa84355c2b6ccf4e7f8676e25741616a89e2aab071fce02f4f4e32c57c6"
+    },
+    {
+      "path": "_framework/System.Threading.Channels.mnnp4ji3ib.wasm",
+      "sha256": "02d4ead5b3b26aa4575b7c6e1959b53e178be8289b5f50673810e028db177c07"
+    },
+    {
+      "path": "_framework/System.Threading.Overlapped.wbup7sojf3.wasm",
+      "sha256": "ccfc628444d6e2bc7262fb52a8e1fb78657bb0beb1f8ad645e8a22548a2b00b4"
+    },
+    {
+      "path": "_framework/System.Threading.Tasks.6fasd8si7q.wasm",
+      "sha256": "3e4f7420708d791cd25c6ea7f67953de28674060a4bb7e34b94d3e6670170c52"
+    },
+    {
+      "path": "_framework/System.Threading.Tasks.Dataflow.n4t9zieonm.wasm",
+      "sha256": "4999f05521dd505aef62dce3c5662219688b9137e69ae7bde2de2be3af06d218"
+    },
+    {
+      "path": "_framework/System.Threading.Tasks.Extensions.wdrme7fxwz.wasm",
+      "sha256": "dc517a71f41866aed432af5e238572dd3a0c003d72d0fb28bdc001c72aa60cc9"
+    },
+    {
+      "path": "_framework/System.Threading.Tasks.Parallel.03vnuen8lc.wasm",
+      "sha256": "1c43b83fd7cf59f94d8464bb4b9a205ae369a2ba516bdf3d08074d3e729d4f6f"
+    },
+    {
+      "path": "_framework/System.Threading.Thread.jil5gq8n2g.wasm",
+      "sha256": "2bf4849bba03d9c824a9d6f416a3f6385db2511c9067158a22b0a1d1b3e73fa1"
+    },
+    {
+      "path": "_framework/System.Threading.ThreadPool.w7nx9n33c3.wasm",
+      "sha256": "34b76c5db756b768f663eff7d33cb5a0c364df9e87df8c722c5902b306f24d4c"
+    },
+    {
+      "path": "_framework/System.Threading.Timer.vpz28qnb8r.wasm",
+      "sha256": "adfe60b5b98d6cb4cb2dc6f006a3d421e4a1c1797ede53fbb9e3310ab591c70a"
+    },
+    {
+      "path": "_framework/System.Transactions.Local.tlh6ezjhx4.wasm",
+      "sha256": "a148518b25e4a90b34122569aecd1143ef0278f6d929a1637f94711f6c5c9c4b"
+    },
+    {
+      "path": "_framework/System.Transactions.xg3z6p9c5x.wasm",
+      "sha256": "5156e8ca9fe00a1241b621c9a14dacc8982baac5cc0648cadcb43ed0aedb32aa"
+    },
+    {
+      "path": "_framework/System.ValueTuple.juzeeowza8.wasm",
+      "sha256": "fb9a1f95b2077fcd2704a93bd2e52b7035f84f58ed5b3b4fad16f8533cb5a696"
+    },
+    {
+      "path": "_framework/System.Web.HttpUtility.50ukl0vvlp.wasm",
+      "sha256": "e5b99e7d60d78b232cbf6bf649762f9a1e8d7afa8721203f2713fc672f1674cb"
+    },
+    {
+      "path": "_framework/System.Web.nquguxbga8.wasm",
+      "sha256": "614e7081a10cb8b18db4cfe126e0413192c30047bd5c0e923b94f741493042d7"
+    },
+    {
+      "path": "_framework/System.Windows.7my52aupxf.wasm",
+      "sha256": "7f0897b7595ef29c22e1f6461d861916618bafc84ea0675d4fc0b1b25f7adb3d"
+    },
+    {
+      "path": "_framework/System.Xml.dvbhh7ypsi.wasm",
+      "sha256": "a71cdd47334b72d2f81865bcd304fb52622fc043555702b32f6475b640330a76"
+    },
+    {
+      "path": "_framework/System.Xml.Linq.mr3gbysv2k.wasm",
+      "sha256": "ee552f04fccd2dfb858d57f2587ca2c0b964dda2c6a63ee5c975b6f1cdbdf082"
+    },
+    {
+      "path": "_framework/System.Xml.ReaderWriter.5aewgdxgx5.wasm",
+      "sha256": "b37b7ad41a5afa69b647049f7154d277b95298e05a1242c622c23819634678e5"
+    },
+    {
+      "path": "_framework/System.Xml.Serialization.895vgbnzvk.wasm",
+      "sha256": "5c78a19d2c53b77e628d7f0fc9fe9219d00d4cd134ab5871f8df4b7d144a2d04"
+    },
+    {
+      "path": "_framework/System.Xml.XDocument.gawed0m0dk.wasm",
+      "sha256": "08d84f1bad0c95e0d5da4bcc2b729ec1e92f9f33c192f505db479e26ab2d3e68"
+    },
+    {
+      "path": "_framework/System.Xml.XmlDocument.sleio7elqk.wasm",
+      "sha256": "70cee6552f8b3b32514bf0af7f328aece5a88275c5094c4aa1c87828e54081fd"
+    },
+    {
+      "path": "_framework/System.Xml.XmlSerializer.dzxtf0jve0.wasm",
+      "sha256": "49b07ba5f3f5b9f426bdee539d10c73efc99dfbc5b67147de8130c9be802d5f7"
+    },
+    {
+      "path": "_framework/System.Xml.XPath.rzdhxhia4c.wasm",
+      "sha256": "17a660584e4f290902603b515f4f6327800c0d9a74a53bc84479714a2d4da81a"
+    },
+    {
+      "path": "_framework/System.Xml.XPath.XDocument.8d6fv5kfwc.wasm",
+      "sha256": "fc80bd0aeebcb3034e491429ecd99dfd37e0d243b859314731dd6a4480a27dec"
+    },
+    {
+      "path": "_framework/WindowsBase.sai7rvg6jy.wasm",
+      "sha256": "9c507b39de107c96ec0891dd67718d567e76754bf793509611c56cee09d2e143"
+    },
+    {
+      "path": "app.css",
+      "sha256": "12d5f13bd17ce0541b8e1f9c7dfa91c26eb6ec319854777243500f20c62d405b"
+    },
+    {
+      "path": "app.js",
+      "sha256": "6e58fc7a0bfe271acb616d517754c7cb9f26317477d68ccdb883039e830fca45"
+    },
+    {
+      "path": "index.html",
+      "sha256": "226f584870d21ffc3ed1ecaac17942d361d59a8fd29d3c2da1a66a5b794cf80a"
+    },
+    {
+      "path": "main.js",
+      "sha256": "9cee5365e79807253464fa474b4937775a2fee66c0b4801fdca44e42ce9bd641"
+    },
+    {
+      "path": "README.md",
+      "sha256": "51651fbf70a6884c091302f5348b2b61346a3555fe0953931295f16312fc8a24"
+    },
+    {
+      "path": "samples/Level00001.json",
+      "sha256": "55440891fcb2af8a50c5446271e7345fa7935a089216752f0a625c8cd21ac87e"
+    },
+    {
+      "path": "solver-worker.js",
+      "sha256": "81e2733048da2abb9f7271db1a13f129594e1365be98b5a1746f962e4bbc946f"
+    }
+  ]
+}

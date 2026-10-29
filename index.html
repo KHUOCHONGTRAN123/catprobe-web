@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CatProbe</title><link rel="icon" href="data:,"><link rel="stylesheet" href="app.css"><script type="module" src="main.js"></script></head>
+<body>
+<header class="app-header"><div class="brand"><span class="brand-mark" aria-hidden="true">C</span><div><h1>CatProbe</h1><span class="subtitle">Level playground</span></div></div><div class="header-right"><span class="local-badge" id="modeBadge"><span></span> WebAssembly</span><button id="exit" class="quiet" hidden>Thoát tool</button></div></header>
+<section id="wifiPanel" class="wifi-panel" hidden><div><strong>Mở trên Mac / máy khác</strong><p>Cùng mạng nội bộ với máy chủ. Gửi đường link này cho người dùng.</p></div><div class="wifi-link"><input id="wifiUrl" readonly aria-label="Đường link Wi-Fi"><button id="copyWifi">Sao chép link</button></div><span id="wifiCopyStatus" role="status"></span></section>
+<main>
+<section class="settings" aria-label="Thiết lập phân tích">
+<div class="section-heading"><span class="eyebrow">01 / LEVEL</span><span class="muted">JSON</span></div>
+<div id="dropzone" class="dropzone"><span class="upload-mark" aria-hidden="true">↥</span><h2 id="filename">Thả level vào đây</h2><p>hoặc chọn file từ máy của bạn</p><button id="choose">Chọn level…</button><input id="file" type="file" accept=".json,application/json" hidden></div>
+<button id="sample" class="sample-link">Dùng thử Level00001.json <span aria-hidden="true">↗</span></button>
+<div class="section-heading second"><span class="eyebrow">02 / GIỚI HẠN TÌM</span></div>
+<div class="fields"><label for="moves">Số nước tối đa (n)<input id="moves" type="number" min="0" max="200" step="1" value="10" required></label><label for="seconds">Thời gian (giây)<input id="seconds" type="number" min="1" max="120" step="1" value="60" required></label></div>
+<p class="hint">Một nước = một lần kéo hole.</p>
+<div class="analysis-actions"><button id="analyze" class="primary" disabled>Phân tích <span aria-hidden="true">→</span></button><button id="cancel" hidden>Dừng tìm</button></div>
+<div id="status" class="status" role="status" aria-live="polite">Đang tải solver lần đầu…</div>
+<div id="result" class="result"><span class="eyebrow">CAT ĂN ĐƯỢC</span><div class="result-main"><strong id="cats">—</strong><span id="resultMoves">cat</span></div><p id="stats">Kết quả sẽ hiện sau khi phân tích.</p></div>
+<button id="save" class="save" disabled>Lưu kết quả JSON</button>
+<p class="fineprint">Tốt nhất tìm được trong ngân sách, chưa chứng minh tối đa. Đường đi được kiểm tra lại bằng replay của Solver.</p>
+</section>
+<section class="preview" aria-label="Preview đường đi">
+<div class="preview-heading"><div><span class="eyebrow">03 / PREVIEW</span><h2>Nhìn từng nước đi</h2></div><span id="boardSize" class="muted">Chưa có level</span></div>
+<div class="board-container"><canvas id="board" aria-label="Bàn chơi với hole và cat"></canvas><div id="emptyBoard"><span aria-hidden="true">▦</span><p>Bàn chơi của bạn sẽ xuất hiện ở đây</p></div></div>
+<div class="timeline"><label for="seek" id="position">Nước 0 / 0</label><span id="eatenNow">Đã ăn 0 cat</span></div>
+<input id="seek" type="range" min="0" max="0" step="1" value="0" aria-label="Chọn nước preview" disabled>
+<div class="playback"><div class="transport"><button id="reset" aria-label="Về đầu" disabled>↤</button><button id="prev" aria-label="Nước trước" disabled>←</button><button id="play" class="play" disabled>▶ Phát</button><button id="next" aria-label="Nước sau" disabled>→</button></div><label class="speed-label" for="speed">Tốc độ<select id="speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option></select></label></div>
+<div class="legend"><span><i class="hole-key"></i>Hole</span><span><i class="cat-key"></i>Cat</span><span><i class="wall-key"></i>Vật cản / CatBox</span><span id="moveDetail"></span></div>
+<p class="preview-note">Preview giản lược: hole di chuyển theo đường kéo; cat và trạng thái cập nhật sau mỗi lần thả.</p>
+</section>
+</main>
+<footer><span id="privacyNote">Level được xử lý trên máy này, không gửi ra Internet.</span><span id="version">CatProbe WebAssembly</span></footer>
+</body></html>
