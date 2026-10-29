@@ -1,5 +1,5 @@
 {
-  "version": "0.5.0",
+  "version": "0.5.1",
   "runtime": "browser-wasm",
   "defaultSeconds": 60,
   "files": [
@@ -12,8 +12,12 @@
       "sha256": "a403ebaca792d28eabe12cdcd987512ed2e5ea6db5ae27c9eeffd2390c15d813"
     },
     {
+      "path": "_framework/CatProbe.Wasm.i7czloen3f.wasm",
+      "sha256": "72a2c3ab6597db80a16607b6b66c65fd0a29b848e6c5e90e8a809a68445d4143"
+    },
+    {
       "path": "_framework/dotnet.js",
-      "sha256": "22428e920dec2633b9848cfd71feeb426911b987403233f50cff007ac3e80c4c"
+      "sha256": "e87576853e015f6c78cd077105d4e9c0658d964dde4f59ce672048e7b2705fe2"
     },
     {
       "path": "_framework/dotnet.native.puryxhmhq9.js",
@@ -744,6 +748,10 @@
       "sha256": "6e58fc7a0bfe271acb616d517754c7cb9f26317477d68ccdb883039e830fca45"
     },
     {
+      "path": "full-solver-worker.js",
+      "sha256": "15331da6b54f679ee60bbcb72e0d32a784ac1b2187cf5555a2f962d7175abf76"
+    },
+    {
       "path": "index.html",
       "sha256": "226f584870d21ffc3ed1ecaac17942d361d59a8fd29d3c2da1a66a5b794cf80a"
     },
@@ -766,6 +774,22 @@
     {
       "path": "samples/Level00001.json",
       "sha256": "55440891fcb2af8a50c5446271e7345fa7935a089216752f0a625c8cd21ac87e"
+    },
+    {
+      "path": "solve/index.html",
+      "sha256": "a771ee743be8da6751cc7ac743a344b37522f997de70cc66071cf2ba0db168b5"
+    },
+    {
+      "path": "solve/README.md",
+      "sha256": "6c3ad3754ff3ab9eda32fc0226420c2d9d1267cdaac65bc71e7478769eaf2657"
+    },
+    {
+      "path": "solve/solve-page.js",
+      "sha256": "803dd18e0c4d23c1fad8c7043eba20fe1934491abd101a619bd924516c224483"
+    },
+    {
+      "path": "solve-api.js",
+      "sha256": "640497268110a018de712d61c683a6e527fdf3076c0d968e63b89ef822ebffce"
     },
     {
       "path": "solver-worker.js",
