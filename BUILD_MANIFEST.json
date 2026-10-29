@@ -748,6 +748,14 @@
       "sha256": "226f584870d21ffc3ed1ecaac17942d361d59a8fd29d3c2da1a66a5b794cf80a"
     },
     {
+      "path": "LICENSE-DOTNET.txt",
+      "sha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310"
+    },
+    {
+      "path": "LICENSE-Newtonsoft.Json.md",
+      "sha256": "b98a397897ff55f76cddc380041507a95a896b2946e0188703bf0496793d6516"
+    },
+    {
       "path": "main.js",
       "sha256": "9cee5365e79807253464fa474b4937775a2fee66c0b4801fdca44e42ce9bd641"
     },
@@ -762,6 +770,10 @@
     {
       "path": "solver-worker.js",
       "sha256": "81e2733048da2abb9f7271db1a13f129594e1365be98b5a1746f962e4bbc946f"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.txt",
+      "sha256": "66f1d4e44973185519bb4aa8a9718eb22fc7af2cc532e3ae9cfc4c127ee7fc54"
     }
   ]
 }
